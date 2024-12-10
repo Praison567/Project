@@ -1,0 +1,649 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* React project */
+/* header */
+.head {
+  height: 64px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.title {
+  margin-right: 79%;
+}
+small {
+  font-size: small;
+}
+.search {
+  margin: -77px;
+  margin-right: 164px;
+}
+.search input:focus{
+  outline: none;
+}
+.type {
+  padding: 12px 132px;
+
+}
+.type1 {
+  background-color: orange;
+  padding: 6px;
+  color: black;
+}
+.type2 {
+  margin-left: 469px;
+  margin-top: -43px;
+}
+.signin {
+  padding-left: 594px;
+  padding-top: 33px;
+}
+.signin button {
+  padding: 10px 17px;
+  background-color: #99d6e7;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+}
+#up {
+  padding-left: 805px;
+  margin-top: -71px;
+}
+.cart {
+  margin-left: 80%;
+  margin-top: -30px;
+}
+.c {
+  color: white;
+  margin-left: 32%;
+  margin-top: -29px;
+  font-size: 20px;
+}
+
+/* carousel */
+/* .img {
+  margin-top: 30px;
+} */
+
+
+
+
+/* Content */
+.content {
+  background-color: rgba(136, 229, 245, 0.731);
+  height: 1200px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(9, 9, 65);
+  height: 20px;
+}
+.navbar-links {
+  display: flex;
+  column-gap: 20px;
+}
+.navbar-links a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-links a:hover{
+  color: #61dafb;
+}
+
+
+.og {
+  padding-top: 13px;
+}
+
+
+/* .side-navbar {
+  background-color: rgb(9, 9, 65);
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  color: white;
+  transition: 1s;
+} */
+.side-navbar-link {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.side-navbar-links a {
+  text-decoration: none;
+  color: white;
+}
+.side-navbar-links a:hover{
+  color: #61dafb;
+}
+
+
+
+/* Offers */
+.sale {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: rgb(255, 0, 0);
+}
+.products {
+  font-weight: 500;
+  font-size: 20px;
+}
+.off {
+  font-weight: 400;
+}
+.aircooler {
+  width: 75%;
+
+}
+.t-shirts {
+  font-size: 26px;
+  font-weight:500;
+  margin-top: -17px;
+}
+.offer {
+  font-weight:500;
+  margin-top: -17px;
+}
+.tshirts {
+  width: 75%;
+}
+.mobiles {
+  width: 80%;
+}
+/* .mobiles {
+  font-weight: 500;
+  font-size: 26px;
+} */
+.discounts {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* Contents */
+/* Electronics */
+.electronics {
+  background-color: white;
+  width: 298px;
+  height: 517px;
+  margin-left: 10px;
+  margin-top: 66px;
+}
+.electric2 {
+  display: flex;
+  justify-content: flex-start;
+  font-weight:600;
+  padding-left: 11px;
+  margin-top: -17px;
+
+}
+.electric1 {
+  padding: 17px;
+}
+.ac {
+  width: 120px;
+  height: 100px;
+  padding-right: 159px;
+}
+.fridge {
+  width: 120px;
+  height: 100px;
+  padding-left: 120px;
+  margin-top: 9px; 
+}
+.r {
+  margin-top: 2px;
+}
+.oven {
+  width: 120px;
+  height: 100px;
+  margin: -145px 159px 86px 9px;
+}
+.m {
+  margin: -83px 159px 10px 10px;
+}
+.washing {
+  width: 120px;
+  height: 100px;
+  margin: -289px -110px 350px 9px;
+}
+.w {
+  margin: -348px -117px 10px 10px;
+}
+.explore1 {
+  padding-top: 178px;
+  padding-right: 125px;
+}
+.exploreone {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  background-color: aqua;
+  border-radius: 2px;
+}
+
+
+/* Electronics Page */
+/* .e1 {
+  width: 298px;
+  height: 296px;
+}
+.e2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.e3 {
+  font-size: 21px;
+  font-weight:500;
+}
+.e4 {
+  padding-left: 56px;
+} */
+
+/* .electrics3 {
+  display: flex;
+  align-content: space-around;
+} */
+
+
+
+
+
+
+.electrics1 {
+  display: flex;
+  justify-content: center; /* Centers the child elements horizontally */
+  align-items: center; /* Centers the child elements vertically */
+  flex-direction: column; /* Stacks items vertically */
+  padding: 20px;
+}
+
+.electrics2 {
+  display: flex;
+  flex-wrap: wrap; /* Wraps items to the next line if necessary */
+  gap: 111px; /* Adds space between items */
+  justify-content: space-evenly; /* Distributes items evenly across the row */
+}
+
+.electrics3 {
+  display: flex;
+  flex-direction: column; /* Stacks elements inside the card vertically */
+  align-items: center; /* Centers elements within the card horizontally */
+  width: 280px; /* Sets a fixed width for each card */
+  padding: 10px;
+  border: 1px solid #ddd; /* Adds a border to each item */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+  text-align: center;
+}
+
+.e1 {
+  width: 100%; /* Makes the image fit the width of the card */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.e4 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.e2 {
+  color: green;
+  font-weight:500;
+  font-size: 30px;
+}
+
+.e3 {
+  color: #555;
+  font-size: 21px;
+  font-weight: 500;
+  margin: -10px 10px;
+}
+
+.e5 {
+  margin-top: 47px;
+}
+
+
+
+
+
+
+
+/* Jewelary */
+
+.jewelary {
+  width: 296px;
+  height: 517px;
+  background-color: white;
+  margin: -536px 323px;
+}
+.jewels {
+  font-weight:600;
+  margin-top: -18px;
+}
+.jewelimg1 {
+  width: 91%;
+}
+.explore3 {
+  padding-top: 24px;
+  padding-right: 125px;
+}
+
+
+.jewel1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.jewel2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 157px;
+  justify-content: space-evenly;
+}
+
+.jewel3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.j1 {
+  margin-top: 38px;
+}
+
+
+
+
+
+/* Mens clothing */
+
+.mens-clothing {
+  width: 296px;
+  height: 576px;
+  background-color: white;
+  margin: -537px 633px;
+}
+.mens2 {
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -17px;
+  margin-left: 10px;
+}
+.img1 {
+  width: 121px;
+  height: 158px;
+  margin-right: 136px;
+}
+.img2 {
+  width: 121px;
+  height: 158px;
+  margin: -162px -18px 187px 119px;
+}
+.img3 {
+  width: 121px;
+  height: 158px;
+  margin: -175px 347px 66px 18px;
+
+}
+.img4 {
+  width: 121px;
+  height: 158px;
+  margin: -267px -67px 86px 71px;
+}
+.explore2 {
+  margin: -51px 150px 0px 20px;
+}
+.exploretwo {
+  text-decoration: none;
+  padding: 9px 8px;
+  border-radius: 2px;
+  background-color: aqua;
+  color: black;
+}
+
+.m1 {
+  margin-top: 38px;
+}
+
+
+/* Womens clothing */
+.womens-clothing {
+  width: 296px;
+  height: 576px;
+  background-color: white;
+  /* margin-left: 945px;
+  margin-top: 4px; */
+  margin: -596px 944px;
+}
+.womensimg1 {
+  width: 50%;
+  margin-right: 134px;
+}
+.womensimg2 {
+  width: 50%;
+  margin-left: 129px;
+  margin-top: -177px;
+
+}
+.explore4 {
+  padding-top: 27px;
+  padding-right: 132px;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: rgb(2, 2, 50);
+  height: 340px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.footer1 {
+  display: flex;
+  justify-content:space-around;
+}
+.a {
+  margin-bottom: -11px;
+  text-align: left;
+}
+.x {
+  text-align: left;
+}
+
+
+
+
+/* SignIn */
+
+.SignIn {
+  font-size: 34px;
+  font-weight:500;
+}
+
+.emailid {
+  width: 67%;
+  height: 24px;
+  padding: 5px;
+  outline: none; /* Removes default blue outline */
+  transition: box-shadow 0.3s ease;
+}
+
+.emailid:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.8); /* Add a glowing effect */
+  border: 1px solid rgba(0, 123, 255, 0.8);
+}
+
+.email {
+  margin-right: 234px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.pass {
+  margin-right: 204px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.si {
+  padding: 7px 75px;
+  margin-top: 23px;
+  background-color: rgb(230, 226, 17);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.si:hover {
+  background-color: yellow;
+}
+
+.account {
+  padding: 7px 75px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-top: -3px;
+  background-color:white;
+}
+
+.account:hover {
+  background-color:#ddd ;
+}
+
+.border {
+  border: 1px solid black;
+  border-radius: 9px;
+  height: 466px;
+  width: 400px;
+  margin-left: 420px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+
+/* Sign Up */
+
+.SignUp {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.border2 {
+  border: 1px solid black;
+  border-radius: 9px;
+  width: 400px;
+  height: 580px;
+  margin-left: 420px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.name {
+  font-weight: 500;
+  margin-right: 228px;
+}
+
+.mobile {
+  font-weight: 500;
+  margin-right: 160px;
+}
+
+.mob {
+  margin-top: 17px;
+}
+
+.policy {
+  margin-top: -12px;
+}
+
+.policy a {
+  color: rgb(11, 182, 239);
+}
+.policy a:hover {
+  color: rgb(9, 107, 198);
+}
+
+p a {
+  color: rgb(11, 182, 239);
+}
+p a:hover {
+  color: rgb(9, 107, 198);
+}
+
+.already a {
+  text-decoration: none;
+}
+.already a:hover {
+  text-decoration: underline;
+  color: rgb(9, 107, 198);
+}
+
