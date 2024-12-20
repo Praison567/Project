@@ -30,25 +30,18 @@ function Content() {
     };
 
 
-    // const section=['electronics','jewelary','mens clothing','womens clothing']
-
     return (
         <div className="content">
             {/* Navbar */}
             <nav className="navbar">
                 <div className="navbar-links">
                     <IoMenuSharp size={25} style={{ paddingTop: '15px', color: 'white' }} onClick={shownavbar} />
-                    <p><Link to="">Today's Deal</Link></p>
                     {data?.map((products)=>(
                         <>
                         <Link to={products} className="og"><div>{products}</div></Link>
                         </>
                     ))}
                 
-                    {/* <p><Link to="electronics">Electronics</Link></p>
-                    <p><Link to="jewelary">Jewelary</Link></p>
-                    <p><Link to="mens">Mens Clothing</Link></p>
-                    <p><Link to="womens">Womens Clothing</Link></p> */}
                 </div>
             </nav>
 

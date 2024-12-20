@@ -42,9 +42,9 @@ function Footer() {
 
 
             <div>
-                <div>
+                <div className="down">
                     <p>Conditions of Use & Sale | Privacy Notice | Interest-Based Ads</p>
-                    <p><PiCopyright /> 2001-2024 Praison.com</p>
+                    <p><PiCopyright /> 2024 www.praison.com.All rights reserved.</p>
                 </div>
             </div>
 

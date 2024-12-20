@@ -7,7 +7,6 @@ import Layout from './layout';
 import Content from './content';
 import Signin from "./signin";
 import Signup from "./signup";
-// import UncontrolledExample from "./uncontrolledExample";
 function Router() {
     return (
         <div>

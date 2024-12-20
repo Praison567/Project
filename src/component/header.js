@@ -8,7 +8,7 @@ function Header(){
             <h1 class='title'>praison<small>.in</small></h1>
             <TbBrandAmazon style={{color:'orange', marginRight:'81%',marginTop:'-4%',}} size={70}/>
             <div className="search">
-                <input type='text' className='type' placeholder="Search for products,Brands" /><div className="type2"><IoSearchSharp className="type1" size={30}/></div>
+                <input type='text' className='type' placeholder="Search for Products, Brands and More" /><div className="type2"><IoSearchSharp className="type1" size={30}/></div>
 
             </div>
             <div className="signin">

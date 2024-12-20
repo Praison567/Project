@@ -39,6 +39,8 @@
 
 
 
+
+
 /* React project */
 /* header */
 .head {
@@ -54,28 +56,30 @@ small {
   font-size: small;
 }
 .search {
-  margin: -77px;
-  margin-right: 164px;
+  margin-top: -75px;
+  margin-right: 190px;
+}
+.type {
+  width: 34%;
+  padding: 11px;
+
 }
 .search input:focus{
   outline: none;
 }
-.type {
-  padding: 12px 132px;
 
-}
 .type1 {
   background-color: orange;
-  padding: 6px;
+  padding: 5px;
   color: black;
 }
 .type2 {
-  margin-left: 469px;
-  margin-top: -43px;
+  margin-left: 427px;
+  margin-top: -41px;
 }
 .signin {
   padding-left: 594px;
-  padding-top: 33px;
+  margin-top: -42px;
 }
 .signin button {
   padding: 10px 17px;
@@ -86,7 +90,7 @@ small {
 }
 #up {
   padding-left: 805px;
-  margin-top: -71px;
+  margin-top: -38px;
 }
 .cart {
   margin-left: 80%;
@@ -98,11 +102,6 @@ small {
   margin-top: -29px;
   font-size: 20px;
 }
-
-/* carousel */
-/* .img {
-  margin-top: 30px;
-} */
 
 
 
@@ -199,10 +198,6 @@ small {
 .mobiles {
   width: 80%;
 }
-/* .mobiles {
-  font-weight: 500;
-  font-size: 26px;
-} */
 .discounts {
   display: flex;
   justify-content: space-around;
@@ -268,9 +263,16 @@ small {
   text-decoration: none;
   color: black;
   padding: 10px 15px;
-  background-color: aqua;
-  border-radius: 2px;
+  background-color: rgb(249, 164, 6);
+  border-radius: 3px;
 }
+.exploreone:hover {
+  background-color: rgb(254, 132, 32);
+}
+
+
+
+
 
 
 /* Electronics Page */
@@ -294,9 +296,6 @@ small {
   display: flex;
   align-content: space-around;
 } */
-
-
-
 
 
 
@@ -353,6 +352,15 @@ small {
 
 .e5 {
   margin-top: 47px;
+  padding: 10px 70px;
+  border-radius: 40px;
+  border: none;
+  background-color: orange;
+  font-size: 90%;
+}
+
+.e5:hover{
+  background-color: rgb(254, 132, 32);
 }
 
 
@@ -411,6 +419,15 @@ small {
 
 .j1 {
   margin-top: 38px;
+  padding: 10px 70px;
+  border-radius: 40px;
+  border: none;
+  background-color: orange;
+  font-size: 90%;
+}
+
+.j1:hover{
+  background-color: rgb(254, 132, 32);
 }
 
 
@@ -459,14 +476,28 @@ small {
 .exploretwo {
   text-decoration: none;
   padding: 9px 8px;
-  border-radius: 2px;
-  background-color: aqua;
+  border-radius: 3px;
+  background-color: rgb(249, 164, 6);
   color: black;
+}
+.exploretwo:hover {
+  background-color: rgb(254, 132, 32);
 }
 
 .m1 {
   margin-top: 38px;
+  padding: 10px 70px;
+  border-radius: 40px;
+  border: none;
+  background-color: orange;
+  font-size: 90%;
 }
+
+.m1:hover{
+  background-color: rgb(254, 132, 32);
+}
+
+
 
 
 /* Womens clothing */
@@ -515,6 +546,9 @@ small {
 }
 .x {
   text-align: left;
+}
+.down {
+  margin-top: 41px;
 }
 
 
