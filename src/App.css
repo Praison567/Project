@@ -57,7 +57,7 @@ small {
 }
 .search {
   margin-top: -75px;
-  margin-right: 190px;
+  margin-right: 210px;
 }
 .type {
   width: 34%;
@@ -207,6 +207,7 @@ small {
 
 /* Contents */
 /* Electronics */
+
 .electronics {
   background-color: white;
   width: 298px;
@@ -617,7 +618,7 @@ small {
   border-radius: 9px;
   height: 466px;
   width: 400px;
-  margin-left: 420px;
+  margin-left: 515px;        
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -636,7 +637,7 @@ small {
   border-radius: 9px;
   width: 400px;
   height: 580px;
-  margin-left: 420px;
+  margin-left: 515px;
   margin-top: 40px;
   margin-bottom: 60px;
 }

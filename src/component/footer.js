@@ -44,7 +44,7 @@ function Footer() {
             <div>
                 <div className="down">
                     <p>Conditions of Use & Sale | Privacy Notice | Interest-Based Ads</p>
-                    <p><PiCopyright /> 2024 www.praison.com.All rights reserved.</p>
+                    <p><PiCopyright /> 2025 www.praison.com.All rights reserved.</p>
                 </div>
             </div>
 
